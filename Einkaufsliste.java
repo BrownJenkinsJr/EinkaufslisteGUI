@@ -11,6 +11,10 @@ public class Einkaufsliste
     public Einkaufsliste()
     {
         einkaufsliste = new List<Artikel>();
+        einkaufsliste.append(new Artikel("Eier"));
+        einkaufsliste.append(new Artikel("Butter"));
+        einkaufsliste.append(new Artikel("Zucker"));
+        einkaufsliste.append(new Artikel("Gurken"));
     }
 
     /** Die Liste wird um einen neuen Artikel ergänzt.
